@@ -1,0 +1,47 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: Ubuntu, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #18294f;
+  display: block;
+  margin: 0;
+  padding: .3em 0 .5em;
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+}
+
+header li {
+  list-style-type: none;
+  list-style: none;
+  padding: 5px 0;
+}
+
+header a {
+  color: #6c8fe0;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
